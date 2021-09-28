@@ -2,9 +2,13 @@
 
 .banner {
     margin-top: 6rem;
+    position: relative;
+    overflow: hidden;
+    // z-index: -3;
 
     .card {
         background: $primary-gradient !important;
+        z-index: 1;
 
         .banner-card {
             .banner-title {
@@ -34,5 +38,11 @@
                 }
             }
         }
+    }
+    .banner-bg {
+        position: absolute;
+        top: -80px;
+        left: -100px;
+        // z-index: -2;
     }
 }

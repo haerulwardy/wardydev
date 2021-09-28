@@ -1,0 +1,19 @@
+@import '../../custom';
+
+.hero-about {
+    background: $primary-gradient;
+    padding: 3rem;
+
+    .hero-about-btn {
+        margin-top: 2rem;
+        background-color: $primary;
+        color: $white;
+        transition: 0.5s;
+        border: none;
+
+        &:hover {
+            background-color: hsl(221, 100%, 50%);
+            color: $light;
+        }
+    }
+}
