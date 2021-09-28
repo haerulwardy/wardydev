@@ -1,0 +1,37 @@
+@import '../../custom';
+
+.projects {
+    .project {
+        img {
+            width: 100%;
+        }
+
+        .project-link {
+            .project-study-case {
+                opacity: 0.6;
+                transition: 1s;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+
+            .project-view-website {
+                opacity: 0.6;
+                transition: 1s;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

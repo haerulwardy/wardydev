@@ -1,0 +1,38 @@
+@import '../../custom';
+
+.banner {
+    margin-top: 6rem;
+
+    .card {
+        background: $primary-gradient !important;
+
+        .banner-card {
+            .banner-title {
+                color: $light;
+                margin-top: -8px;
+
+                p {
+                    opacity: 0.6;
+                }
+
+                h2 {
+                    font-weight: 700;
+                }
+            }
+
+            .banner-btn {
+                margin-top: 2rem;
+
+                background-color: $primary;
+                color: $white;
+                transition: 0.5s;
+                border: none;
+
+                &:hover {
+                    background-color: hsl(221, 100%, 50%);
+                    color: $light;
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,20 @@
 @import '../../custom';
 
 .hero {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+
     .hero-btn {
         background: $primary-gradient;
         color: $white;
         font-size: 1rem;
         transition: 1s;
+        border: none;
 
         &:hover {
             background: linear-gradient(to right, #6120c9, #4373da);
+            color: $light;
         }
     }
 
@@ -33,10 +39,20 @@
             background: $primary-gradient;
             color: $white;
             transition: 1s;
+            border: none;
 
             &:hover {
                 background: linear-gradient(to right, #6120c9, #4373da);
+                color: $light;
             }
         }
+    }
+    .hero-wave-bg {
+        position: absolute;
+        top: -600px;
+        left: -400px;
+        transform: rotate(10deg);
+        opacity: 0.8;
+        z-index: -1;
     }
 }
