@@ -1,0 +1,14 @@
+// color
+$primary: #5D8FFF;
+$secondary: #7028E4;
+$black: #05062C;
+$white: #f8f9fa;
+$primary-gradient: linear-gradient(to right, $secondary, $primary);
+
+// font family
+body {
+    font-family: 'Quicksand', sans-serif !important;
+    background-color: $black !important;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
