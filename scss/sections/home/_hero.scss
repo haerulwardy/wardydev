@@ -2,7 +2,7 @@
 
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
     overflow: hidden;
 
     .hero-btn {
@@ -32,9 +32,7 @@
         }
 
         .btn-hero-content {
-            margin-top: 2rem;
-            padding-right: 3rem;
-            padding-left: 3rem;
+            text-decoration: none;
 
             background: $primary-gradient;
             color: $white;

@@ -2,15 +2,21 @@
 
 .banner {
     margin-top: 6rem;
-    position: relative;
-    overflow: hidden;
-    // z-index: -3;
-
     .card {
         background: $primary-gradient !important;
-        z-index: 1;
+        position: relative;
+        overflow: hidden;
+
+        .banner-bg {
+            position: absolute;
+            top: -50px;
+            left: -200px;
+            width: 80%;
+        }
 
         .banner-card {
+            position: relative;
+            z-index: 1;
             .banner-title {
                 color: $light;
                 margin-top: -8px;
@@ -38,11 +44,5 @@
                 }
             }
         }
-    }
-    .banner-bg {
-        position: absolute;
-        top: -80px;
-        left: -100px;
-        // z-index: -2;
     }
 }
