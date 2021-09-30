@@ -3,18 +3,31 @@
 .hero-about {
     background: $primary-gradient;
     padding: 3rem;
+    position: relative;
+    overflow: hidden;
 
-    .hero-about-btn {
-        margin-top: 2rem;
-        text-decoration: none;
-        background-color: $primary;
-        color: $white;
-        transition: 0.5s;
-        border: none;
+    .hero-body {
+        position: relative;
+        z-index: 2;
+        .hero-about-btn {
+            margin-top: 2rem;
+            text-decoration: none;
+            background-color: $primary;
+            color: $white;
+            transition: 0.5s;
+            border: none;
 
-        &:hover {
-            background-color: hsl(221, 100%, 50%);
-            color: $light;
+            &:hover {
+                background-color: hsl(221, 100%, 50%);
+                color: $light;
+            }
         }
+        }
+
+        .hero-about-bg {
+            position: absolute;
+            top: -50px;
+            left: -200px;
+            width: 80%;
     }
 }

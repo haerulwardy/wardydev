@@ -32,6 +32,18 @@
                     text-decoration: none;
                 }
             }
+            .project-btn {
+                background: $primary-gradient;
+                color: $white;
+                font-size: 1rem;
+                transition: 1s;
+                border: none;
+
+                &:hover {
+                    background: linear-gradient(to right, #6120c9, #4373da);
+                    color: $light;
+                }
+            }
         }
     }
 }
