@@ -5,6 +5,30 @@ $black: #05062C;
 $white: #f8f9fa;
 $primary-gradient: linear-gradient(to right, $secondary, $primary);
 
+::selection {
+    color: $white;
+    background-color: $secondary;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $primary-gradient;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $secondary;
+}
 // font family
 body {
     font-family: 'Quicksand', sans-serif !important;
