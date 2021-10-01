@@ -9,6 +9,11 @@ $primary-gradient: linear-gradient(to right, $secondary, $primary);
 body {
     font-family: 'Quicksand', sans-serif !important;
     background-color: $black !important;
+    .bio {
+        background-color: #060737;
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
 }
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

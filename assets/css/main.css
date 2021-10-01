@@ -3,6 +3,11 @@ body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
 }
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
 
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
@@ -11121,6 +11126,11 @@ textarea.form-control-lg {
 body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
+}
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 /*!
@@ -22287,6 +22297,11 @@ body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
 }
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
 
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
@@ -33440,6 +33455,11 @@ textarea.form-control-lg {
 body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
+}
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 /*!
@@ -44600,6 +44620,11 @@ body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
 }
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
 
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
@@ -55734,6 +55759,11 @@ body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
 }
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
 
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
@@ -66866,10 +66896,18 @@ textarea.form-control-lg {
   left: -200px;
   z-index: -4;
 }
+.footer .footer-icon a {
+  text-decoration: none;
+}
 
 body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
+}
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 /*!
@@ -78019,6 +78057,11 @@ body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
 }
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
 
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
@@ -89141,6 +89184,11 @@ textarea.form-control-lg {
 body {
   font-family: "Quicksand", sans-serif !important;
   background-color: #05062C !important;
+}
+body .bio {
+  background-color: #060737;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 /*!

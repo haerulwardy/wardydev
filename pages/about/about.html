@@ -27,7 +27,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse pt-3 pt-lg-0" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="../../index.html">Home</a>
@@ -39,7 +39,7 @@
                     <a class="nav-link active" aria-current="page" href="../about/about.html">About</a>
                   </li>
                 </ul>
-                <button class="btn btn-primary ms-5 hero-btn">Contact Me</button>
+                <button class="btn btn-lg btn-primary mt-4 mt-lg-0 ms-0 ms-lg-5 hero-btn fw-normal">Contact Me</button>
               </div>
             </div>
         </nav>
@@ -48,10 +48,19 @@
           <div class="row">
               <div class="col">
                   <div class="hero-body px-4 px-lg-5">
-                    <img src="../../assets/utils/image/my-photo.png" alt="my-photo.png">
                     <div class="hero-content-title">
-                        <h1 class="fw-bold">A designer passionate about creating beautiful user friendly products</h1>
-                        <p class="mt-3 fs-5">Currently Lead UI/UX Designer at VideoMyJob. Previously Art Director at Appster. Alumni, Y Combinator 2015.</p>
+                        <h1 class="fw-bold">My name is Wardy, I was born in Indonesia. I have been interested in the IT world since 2017...</h1>
+                        <div class="bio-skill d-flex flex-wrap mt-3">
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">HTML</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">Javascript</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">CSS</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">Bootstrap</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">Tailwind</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">GSAP</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">React JS</button>
+                          <button type="button" class="btn btn-outline-light me-2 me-lg-3 mb-2 mb-lg-0">Styled Component</button>
+                          <button type="button" class="btn btn-outline-light me-3">Firebase</button>
+                        </div>
                     </div>
                     <div class="hero-btn-content mt-5">
                       <a href="mailto: heydicreative@gmail.com" class="py-3 px-4 rounded-3 hero-about-btn">
@@ -73,28 +82,57 @@
     <!-- END NAVBAR -->
 
     <!-- SKILL -->
-    <section class="tools">
-        <div class="container">
-          <!-- skill title -->
-          <div class="row">
-            <div class="col">
-              <div class="tools-title text-center">
-                <h2 class="text-light">Skill and tools</h2>
+    <section class="bio py-5">
+      <div class="container">
+        <div class="row gy-4 gx-5">
+          <div class="col-12">
+            <div class="bio-profile d-flex align-items-center text-light">
+              <img src="../../assets/utils/image/my-photo.png" class="me-4" alt="my-photo.png" width="100">
+              <div class="profile-title">
+                <h2 class="fw-bold">Wardy</h2>
+                <mark class="fs-5 opacity-75 bg-primary text-light">Frontend Developer</mark>
               </div>
             </div>
           </div>
-          <!-- skills -->
-          <div class="tool d-flex flex-wrap gy-5 align-items-center justify-content-between mt-5 px-0 px-lg-5" width="90">
-            <img src="../../assets/utils/icons/skills/reactJs.png" class="mx-auto mx-lg-0 mb-5 mb-lg-0 px-2 px-lg-0" alt="reactJs.png" width="90">
-            <img src="../../assets/utils/icons/skills/firebase.png" class="mx-auto mx-lg-0 mb-5 mb-lg-0 px-2 px-lg-0" alt="firebase.png" width="90">
-            <img src="../../assets/utils/icons/skills/html.png" class="mx-auto mx-lg-0 mb-5 mb-lg-0 px-2 px-lg-0" alt="skills/html.png" width="90">
-            <img src="../../assets/utils/icons/skills/javascript.png" class="mx-auto mx-lg-0 mb-5 mb-lg-0 px-2 px-lg-0" alt="javascript.png" width="90">
-            <img src="../../assets/utils/icons/skills/figma.png" class="mx-auto mx-lg-0 mb-5 mb-lg-0 px-2 px-lg-0" alt="figma.png" width="90">
-            <img src="../../assets/utils/icons/skills/photoshop.png" class="mx-auto mx-lg-0 mb-5 mb-lg-0 px-2 px-lg-0" alt="photoshop.png" width="90">
+          <div class="col-12 col-lg-8">
+            <div class="bio-title text-light">
+              <p class="fs-5 opacity-50 text-center text-lg-start">My name is Wardy, I was born in Indonesia. I have been interested in the IT world since 2017, I started learning programming since high school and tried to take small projects in my area. I've been trying to be a freelancer since 3 years ago and have contributed to helping many companies in several countries.</p>
+              <div class="bio-title-skill mt-5 text-center text-lg-start">
+                <em class="text-light fs-4">Additional skills</em>
+              </div>
+              <p class="mt-3 fs-4 opacity-75 text-center text-lg-start">Ui design, Design system, Wireframing, Project management, Converting Ui, HTML, CSS, Javascript, Bootstrap, Tailwind, GSAP, React JS, Styled Component, Firebase</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="bio-container">
+              <div class="bio-skill d-flex justify-content-center justify-content-lg-start flex-wrap">
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">HTML</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">Javascript</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">CSS</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">Bootstrap</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">Tailwind</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">GSAP</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">React JS</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">Styled Component</button>
+                <button type="button" class="btn btn-outline-primary me-3 mb-3">Firebase</button>
+              </div>
+              <div class="bio-others mt-4 text-center text-lg-start">
+                <em class="text-light fs-5">Additional skills</em>
+                <div class="others-skill mt-4">
+                  <img src="../../assets/utils/icons/skills/figma.png" class="me-3" alt="figma.png" width="60">
+                  <img src="../../assets/utils/icons/skills/photoshop.png" alt="photoshop.png" width="60">
+                </div>
+              </div>
+              <div class="bio-certificate mt-4 text-center text-lg-start">
+                <em class="text-light fs-5">Certificate</em>
+                <div class="certificate mt-4">
+                  <a href="https://www.freecodecamp.org/certification/hairulwardy/responsive-web-design" class="fs-5 text-primary" target="_blank">Freecodecamp - Responsive Web Design</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- background -->
-        <img src="./assets/utils/bg/bubble.png" class="tools-bg" alt="bubble.png">
+      </div>
     </section>
     <!-- END SKILL -->
 
@@ -205,5 +243,6 @@
     </footer>
     <!-- END FOOTER -->
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
